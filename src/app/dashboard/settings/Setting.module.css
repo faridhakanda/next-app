@@ -1,0 +1,25 @@
+.content {
+    display:block;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align:center;
+    
+}
+.setting {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #838383;
+    color: yellowgreen;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+.blog {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #838383;
+    border-radius: 5px;
+}
