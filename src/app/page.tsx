@@ -29,7 +29,10 @@ export default function Home() {
           />
         </div>
         
-        <p>MacBook is my favorite choose for programming and web development.</p>
+        <p>MacBook is my favorite choose for programming and web development. 
+          Robotics is one of the dynamic subject in the present time. Most of developed country 
+          want to applied all of the company robotics in critical work.
+        </p>
 
       </div>
     </main>
