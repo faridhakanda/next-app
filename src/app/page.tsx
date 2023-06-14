@@ -19,12 +19,13 @@ export default function Home() {
         <h2>Robotics and Maching Learngin is the trending technology.</h2>
         <div className={styles.user_image}>
           <Image
-            className={styles.images}
+            
             
             src="/macbook.jpg"
             alt="macbook"
-            width={300}
-            height={300}
+            width = "300"
+            height = "300"
+            
           />
         </div>
         
