@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
-import { skipPartiallyEmittedExpressions } from 'typescript'
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -19,10 +19,12 @@ export default function Home() {
         <h2>Robotics and Maching Learngin is the trending technology.</h2>
         <div className={styles.user_image}>
           <Image
+            className={styles.images}
+            
             src="/macbook.jpg"
             alt="macbook"
-            width={600}
-            height={500}
+            width={300}
+            height={300}
           />
         </div>
         
